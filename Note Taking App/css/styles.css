@@ -1,0 +1,38 @@
+body{
+    background-color: turquoise;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 40px;
+    border: none;
+    background-color: white;
+    opacity: 0.4;
+    transition: 0.2s;
+    margin: 10px;
+}
+
+.task{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    opacity: 0.6;
+    transition: 0.2s;
+    margin: 10px;
+
+}
+.todo-app{
+    display: flex;
+}
+
+.btn:hover , .task:hover{
+    opacity: 0.8;
+}
+
+textarea{
+    padding: 10px;
+}
